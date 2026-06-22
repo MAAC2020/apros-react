@@ -1,34 +1,16 @@
-# apros react
+# React + Vite
 
-# ⚛️ Prueba Técnica APROS — Parte 2: Gestor de Tareas (To-Do List) en React
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Este repositorio contiene la solución a la **Parte 2** de la prueba técnica para **APROS**. Consiste en una aplicación interactiva de gestión de tareas (To-Do List) tipo Single Page Application (SPA), construida con **React** y empaquetada con **Vite**.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🚀 Resumen de Funcionalidades
+## React Compiler
 
-La aplicación cumple con todos los requerimientos solicitados para la gestión del flujo de tareas:
-* **Creación de tareas:** Permite al usuario agregar nuevas tareas mediante un formulario validado (evita entradas vacías).
-* **Control de estado:** Permite marcar y desmarcar tareas como completadas a través de un checkbox o haciendo clic en la tarea.
-* **Eliminación:** Opción para borrar tareas específicas de la lista.
-* **Panel de Estadísticas Dinámico:** Muestra en tiempo real el contador de tareas totales, tareas completadas y tareas pendientes.
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-## 🛠️ Stack Tecnológico y Herramientas
-
-* **Core:** React.js (Componentes Funcionales).
-* **Manejo de Estado:** React Hooks (`useState`).
-* **Build Tool:** Vite (elegido por su rapidez en el inicio del servidor y compilación HMR frente a CRA).
-* **Estilos y UI:** Bootstrap (Uso de sistema de grillas `row`/`col` y clases de utilidad para botones y tipografía, garantizando un diseño responsive ágil).
-
----
-
-## ⚙️ Instrucciones de Instalación y Ejecución
-
-Para correr este proyecto en tu entorno local, necesitas tener [Node.js](https://nodejs.org/) instalado.
-
-1. **Clonar el repositorio** y acceder a la carpeta del proyecto:
-   ```bash
-   cd parte-2-react
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
